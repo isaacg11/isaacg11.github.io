@@ -294,6 +294,7 @@ footer .footer-copyright {
     font-size: 20px;
     text-decoration: underline;
 }
+
 /* helpers */
 .indigo-blend{
 	color: #3f51b5 !important;
@@ -348,6 +349,24 @@ footer .footer-copyright {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+    .nav-option{
+    font-size: 20px !important;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .nav-option{
+    font-size: 10px !important;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 }
 .tutorial-img{
 	margin-bottom: 0px;
